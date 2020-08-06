@@ -14,8 +14,6 @@ At a high level, this week is about building the skills that let you learn a new
 
 ### Following the flow of control
 
-Imagine you want to follow the flow of control in this code.  That is, you want to understand what parts run and in what order they run.
-
 ```js
 document.addEventListener('click', function() {
   console.log("click!");
@@ -57,27 +55,24 @@ document.addEventListener('click', function() {
 
 ### Work through the questions (30 mins)
 
-* Pair up.
 
-* Clone this repo. 
+### Steps
+1. Clone the [repo](https://github.com/makersacademy/skills-workshops/blob/master/week-5/callbacks_following_the_flow_of_control/README.md). 
 
-* Navigate into this workshop's directory and do a `git pull` to ensure you have the latest copy of the workshop.
+2. Open the `index.html` file in your web browser.
 
-* Open the `index.html` file in your web browser.
+3. Open the browser console.
 
-* Open the browser console.
+4. You should see `hello!`.
 
-* You should see `hello!`.
+5. Open `index.js` in your text editor.
 
-* Open `index.js` in your text editor.
+6. For each question, paste the provided code into `index.js`. The code for question 1 (below) is currently in `index.js`.
 
-* For each question, paste the provided code into `index.js`. The code for question 1 (below) is currently in `index.js`.
 
-* Follow the process outlined in the demo to understand the flow of control of the code in the questions. Research anything you are unsure about.
 
-* Swap driver and navigator.  Continue with the next question.
-
-## Questions
+## Questions - 
+_to be found inn index.js_
 
 Follow the process for understanding the flow of control that we used in the demo.
 
@@ -111,7 +106,7 @@ $.get("https://async-workshops-api.herokuapp.com/people", function(peopleRespons
 ```js
 var getReturnValue = $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
   return peopleResponse;
-  
+
 });
 ```
 
@@ -136,11 +131,7 @@ setTimeout(function hiThere(){
   console.log("Hi there!");
 }, 0)
 ```
-
-### Plenary (10 mins)
-
-We'll come back together for a short plenary to discuss our understanding of following the flow of control.
-
+#0 = how many milliseconds it takes for the console to load
 
 ## Resources
 
