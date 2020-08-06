@@ -111,6 +111,7 @@ $.get("https://async-workshops-api.herokuapp.com/people", function(peopleRespons
 ```js
 var getReturnValue = $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
   return peopleResponse;
+  
 });
 ```
 
